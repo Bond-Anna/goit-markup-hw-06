@@ -48,6 +48,25 @@
                 </div>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
+                        <form class="modal-form">
+                            <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+                            <label class="form-label">
+                                <span class="label-name">Имя</span> 
+                            <input type="text" name="name" class="form-input"></label>
+                            <label class="form-label">
+                                <span class="label-name">Телефон</span>
+                            <input type="tel" name="tel" class="form-input"></label>
+                            
+                            <label class="form-label">
+                                <span class="label-name">Почта</span>
+                            <input type="email" name="mail" class="form-input"></label>
+
+                            <label for="comments" class="form-label">
+                                <span class="label-name">Комментарий</span>
+                            <textarea name="comments" id="comments" rows="10" placeholder="Введите текст" class="form-textarea"></textarea></label>
+                            
+                            <button type="submit" class="submit-button">Отправить</button>
+                        </form>
                         <button type="button" class="close" data-modal-close><svg width="30" height="30"><use xlink:href="./images/icons.svg#close"></use></svg></button></div>
                 </div>
             </section>
